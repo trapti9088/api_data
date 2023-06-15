@@ -116,6 +116,7 @@ class User {
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
     data['_id'] = this.sId;
+
     data['name'] = this.name;
     data['userId'] = this.userId;
     data['position'] = this.position;
